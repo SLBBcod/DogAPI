@@ -4,24 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <script src="./project.js"></script>
+   
     <title>DOG API</title>
 </head>
 
 <body>
-
-<div class="container">
-    <div class="card">
-        <div class="texto">       
-                <h1 class="s"></h1>
-                <h2 class="text-main"> Foto aleatória de um cachorrinho! </h2>
-                <p class="desc">Clique no botão para gerar uma foto aleatória de um cachorrinho!</p>
-            <div class="btn">
-            <button type="button" class="button"> Gerar </button>
-            </div>
+    <main>
+        <div class="container">
+          <header>
+            <h1>Dog Viewer</h1>
+            <select class="breeds"></select>
+          </header>
         </div>
-    </div>
-</div>
-
+        <div class="img-container">
+          <div class="container">
+            <div class="spinner">
+              🐶
+            </div>
+            <img
+              src=""
+              class="dog-img show"
+              alt="friendly and intimate - man's best friend"
+            />
+          </div>
+        </div>
+      </main>
+<script src="project.js"></script>
 </body>
 </html>
