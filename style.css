@@ -1,68 +1,51 @@
 .container {
     display: flex;
     justify-content: center;
-}
-
-.s {
-    color: white;
-}
-
-.card {
-    background:rgb(107, 152, 187);
+  }
+  
+  .card {
+    background: rgb(107, 152, 187);
     width: 600px;
     height: 600px;
     border-radius: 18px;
     margin-top: 120px;
-    display: flex;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     justify-content: center;
     text-align: center;
     box-sizing: border-box;
-}
-
-.text-main{
+    position: relative;
+  }
+  
+  .texto {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .select-container {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+  }
+  
+  .select-container select {
+    width: 18%;
+  }
+  
+  .text-main {
     text-align: center;
     color: white;
     font: Arial;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 600;
-}
-
-.desc {
+    margin-top: 30px;
+  }
+  
+  .desc {
     font: Arial;
-    color: #fff;
+    color: #ffffff;
     font-weight: 200;
     text-align: center;
-    font-size: 15;
-}
-
-.button {
-    padding: 8px 30px;
-    font: arial;
-    font-size: 15px;
-    font-weight: 500;
-    background-color: rgb(255, 255, 255);
-    color: #000000;
-    cursor: pointer;
-    border-radius: 5px;
-    margin-top: 430px;
-}
-
-.btn{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
-    border-radius: 20px;
-    border: none;
-    transition: 1s;
-}
-
-.btn:hover{
-    transition: 1s;
-}
-
-/* sombra: box-shadow: {
-rgba(0, 0, 0, 0.25) 0px 54px 55px, 
-rgba(0, 0, 0, 0.12) 0px -12px 30px, 
-rgba(0, 0, 0, 0.12) 0px 4px 6px, 
-rgba(0, 0, 0, 0.17) 0px 12px 13px, 
-rgba(0, 0, 0, 0.09) 0px -3px 5px; }*/
+    font-size: 20px;
+  }
